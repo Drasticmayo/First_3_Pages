@@ -1,0 +1,141 @@
+nav {
+    background-color: #aa2200;
+    width:100%;
+    height: 100px
+    
+}
+div.box {
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80%;
+    float: right;
+    background-color: #dd6a51;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;;
+}
+
+header {
+    text-align: center;
+}
+
+.locations {
+    text-align: center;
+    background-color: #49b055;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.location-box {
+  background-color: #801818;
+  color: white;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.Profiles {
+    height: 30em;
+    margin: 50px;
+    display: flex;
+    background-color: rgb(99, 33, 33);
+
+}
+.Realtor-images {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.Realtor-images img{
+    border-radius: 30px;
+    height:100px;
+    width: 100px;
+}
+.Descriptions{
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Description-box{
+    display: flex;
+    align-items: center;
+    height:70px;
+    gap: 20px;
+    background-color: rgb(141, 59, 59);
+    padding: 10px;
+    border-radius: 10px;
+}
+.travelheader{
+    width: 20%;
+    background-color: #aa2200;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 38.5%;
+
+}
+.Travel-boxes{
+    margin: 50px;
+    display:flex;
+    gap: 6%;
+    height: 400px;
+    justify-content: center;
+}
+.Travel-box{
+    background-color: rgba(167, 76, 58, 0.657);
+    width: 30%;
+    border-radius: 10px;
+}
+.Travel-box h1{
+    background-color: #ac410b52;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Travel-box p{
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+footer{
+    position: absolute;
+    background-color: #aa2200;
+    width: 100%;
+    bottom:0;
+    text-align: center;
+    color: rgb(238,134,108);
+}
